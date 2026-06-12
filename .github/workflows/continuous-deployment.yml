@@ -25,6 +25,7 @@ jobs:
         cache: 'maven'
 
     - name: Build Application .jar
+      working-directory: ./28_DockerizingOurApp
       run: mvn test
 
     - name: Build Application .jar
