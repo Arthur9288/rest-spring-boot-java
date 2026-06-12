@@ -25,12 +25,11 @@ jobs:
         cache: 'maven'
 
     - name: Build Application .jar
-      working-directory: ./28_DockerizingOurApp
-      run: mvn test
-
-    - name: Build Application .jar
       working-directory: ./rest-with-spring-boot-and-java-erudio
       run: mvn clean package
+
+    - name: Build Application .jar
+      run: mvn test
 
     - name: Docker Compose Build
       #working-directory: ./28_DockerizingOurApp
