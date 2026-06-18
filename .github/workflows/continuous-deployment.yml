@@ -40,7 +40,7 @@ jobs:
         run: mvn clean package
 
       - name: Docker Compose Build
-        working-directory: ./30_ContinuousIntegrationWithAWS
+        working-directory: ./rest-with-spring-boot-and-java-erudio
         run: docker compose build
 
       - name: Tag and Push Docker Image to Amazon Container Registry - ECR
