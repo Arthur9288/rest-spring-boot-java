@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+
+# Maven and Build Artifacts
+target/*
+!target/*.jar
+*.war
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Sensitive Data (Security)
+.env
+*.pem
+*.key
+credentials*
+secret*
+
+# Docker and CI/CD
+docker-compose.yml
+.github/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+temp/
+tmp/
+log/
+*.log

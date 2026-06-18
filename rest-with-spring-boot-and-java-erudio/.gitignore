@@ -1,0 +1,25 @@
+# Maven - Ignorar a pasta de build
+target/
+*.jar
+*.war
+*.ear
+
+# IDEs - Ignorar configurações locais de editores
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# Sistema Operacional
+Thumbs.db
+.DS_Store
+
+# Docker e Logs
+*.log
+temp/
+
+# Arquivos de ambiente e segredos
+.env
