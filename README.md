@@ -18,7 +18,7 @@ Execute um único comando no terminal:
 
 ```bash
 docker run -p 8080:8080 -d jesudocker496519/rest-with-spring-boot-erudio:latest
-´´´´
+```
 
 ## 🌐 Acesso
 
