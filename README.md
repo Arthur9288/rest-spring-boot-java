@@ -18,10 +18,10 @@ Execute um único comando no terminal:
 
 ```bash
 docker run -p 8080:8080 -d jesudocker496519/rest-with-spring-boot-erudio:latest
+´´´´
 
 ## 🌐 Acesso
-Após o container iniciar, acesse:
 
-API Root: http://localhost:8080
-
-Swagger (Documentação): http://localhost:8080/swagger-ui.html
+Após o container iniciar, clique nos links abaixo para acessar:
+* **API Root:** [http://localhost:8080](http://localhost:8080)
+* **Swagger (Documentação):** [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
