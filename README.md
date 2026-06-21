@@ -14,14 +14,15 @@ API RESTful desenvolvida em Java e Spring Boot. O projeto demonstra boas prátic
 
 Para rodar a aplicação e o banco de dados juntos de forma totalmente automatizada, você só precisa do Docker instalado.
 
+1. Clone o repositório e entre na pasta:
 
-# 1. Clone o repositório e entre na pasta
 ```bash
-git clone [https://github.com/Arthur9288/rest-spring-boot-java.git](https://github.com/Arthur9288/rest-spring-boot-java.git)
+git clone https://github.com/Arthur9288/rest-spring-boot-java.git
 cd rest-spring-boot-java
 ```
 
-# 2. Suba a API e o Banco de Dados com um único comando
+2. Suba a API e o Banco de Dados com um único comando:
+
 ```bash
 docker-compose up -d
 ```
