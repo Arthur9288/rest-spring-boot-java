@@ -1,18 +1,27 @@
-# RESTful API with Spring Boot and Java
+# RESTful API - Spring Boot & Java
 
 [![Continuous Integration and Delivery with Github Actions](https://github.com/Arthur9288/rest-spring-boot-java/actions/workflows/continuous-deployment.yml/badge.svg)](https://github.com/Arthur9288/rest-spring-boot-java/actions/workflows/continuous-deployment.yml)
 
-Uma API RESTful desenvolvida em Java e Spring Boot, com foco em boas práticas de engenharia de software, integração contínua (CI/CD) e conteinerização. O objetivo deste projeto é demonstrar uma arquitetura escalável e de fácil deploy, unindo o desenvolvimento backend com práticas modernas de infraestrutura.
+API RESTful desenvolvida em Java e Spring Boot. O projeto demonstra boas práticas de engenharia de software, integração contínua (CI/CD) e conteinerização, unindo o desenvolvimento backend a práticas modernas de infraestrutura.
 
-## 🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias
 
-* **Linguagem & Framework:** Java 17+, Spring Boot
-* **Infraestrutura & DevOps:** Docker, Docker Compose
-* **Automação:** GitHub Actions (CI/CD Pipeline)
+* **Backend:** Java 17+, Spring Boot
+* **Infra & DevOps:** Docker, GitHub Actions (CI/CD)
 * **Documentação:** Swagger / OpenAPI
 
-## 🚀 Como executar a aplicação
+## 🚀 Como executar (Plug and Play)
 
-A aplicação foi conteinerizada para garantir uma filosofia *Plug and Play*. Para rodar este projeto localmente, você precisa ter apenas o [Docker](https://www.docker.com/) e o [Docker Compose](https://docs.docker.com/compose/) instalados na sua máquina. Não é necessário instalar o Java ou configurar um banco de dados localmente.
+A imagem Docker já sobe a aplicação e o banco de dados juntos. Para rodar, basta ter o [Docker](https://www.docker.com/) instalado no seu ambiente. Não é necessário configurar o Java ou o banco localmente.
 
+Execute um único comando no terminal:
+
+```bash
 docker run -p 8080:8080 -d jesudocker496519/rest-with-spring-boot-erudio:latest
+
+## 🌐 Acesso
+Após o container iniciar, acesse:
+
+API Root: http://localhost:8080
+
+Swagger (Documentação): http://localhost:8080/swagger-ui.html
