@@ -7,7 +7,6 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.1-brightgreen?logo=springboot&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-9.1.0-blue?logo=mysql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 **API RESTful de nível profissional, construída com as melhores práticas de engenharia de software moderna.**
 
@@ -27,7 +26,7 @@ O projeto foi construído com foco em **qualidade, confiabilidade e manutenibili
 
 | Categoria | Tecnologias e Práticas |
 |---|---|
-| 🔐 **Segurança** | Spring Security + JWT (Auth0), HTTPS-ready |
+| 🔐 **Segurança** | Spring Security + JWT (Auth0) |
 | 🧪 **Qualidade & Testes** | JUnit 5, Mockito, REST Assured, Testcontainers |
 | 📦 **Serialização** | JSON, XML e YAML nativos via Jackson |
 | 🚀 **DevOps** | Docker, Docker Compose, GitHub Actions (CI/CD) |
@@ -250,24 +249,7 @@ Push para main
 - **Build automático** a cada push
 - **Todos os testes executados** (unitários + integração com Testcontainers) antes de qualquer deploy
 - **Imagem Docker publicada** no Docker Hub apenas se todos os testes passarem
-- **Zero downtime** em caso de falha: o pipeline aborta antes de atingir produção
+
+
 
 ---
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Siga os passos:
-
-1. Fork o projeto
-2. Crie uma branch (`git checkout -b feature/minha-feature`)
-3. Commit suas mudanças (`git commit -m 'feat: adiciona minha feature'`)
-4. Push para a branch (`git push origin feature/minha-feature`)
-5. Abra um Pull Request
-
----
-
-<div align="center">
-
-
-
-</div>
